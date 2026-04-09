@@ -1,0 +1,42 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+language: "en-US"
+early_access: false
+
+reviews:
+  profile: "chill"
+  request_changes_workflow: false
+  high_level_summary: true
+  review_status: true
+  collapse_walkthrough: true
+  poem: false
+  auto_review:
+    enabled: true
+    drafts: false
+    auto_incremental_review: true
+    auto_pause_after_reviewed_commits: 5
+    ignore_title_keywords:
+      - "wip"
+      - "do not review"
+  path_filters:
+    - "!**/.DS_Store"
+    - "!**/*.xcuserstate"
+    - "!**/*.xcworkspace/**"
+    - "!**/*.xcodeproj/project.xcworkspace/**"
+    - "!**/xcuserdata/**"
+    - "!**/DerivedData/**"
+    - "!**/*.pbxproj"
+    - "!**/*.xcassets/**"
+  path_instructions:
+    - path: "FleetApp/FleetGVCU/**/*.swift"
+      instructions: |
+        Review Swift and SwiftUI code for correctness, state-management bugs, navigation regressions, and unsafe assumptions around async UI updates.
+        Flag issues involving shared mutable state, missing main-thread isolation for UI-facing changes, weak validation around ticket and vehicle data, and changes that can break app flows.
+    - path: "FleetApp/FleetGVCUTests/**/*.swift"
+      instructions: |
+        Review tests for determinism, meaningful assertions, and coverage of behavior changes instead of implementation details.
+    - path: "FleetApp/FleetGVCUUITests/**/*.swift"
+      instructions: |
+        Review UI tests for brittle selectors, missing launch/setup isolation, and assertions that do not verify user-visible behavior.
+
+chat:
+  auto_reply: true
