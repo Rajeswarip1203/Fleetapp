@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BA5EE4162F3F1DB30083A4C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA5EE4002F3F1DB20083A4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA5EE4072F3F1DB20083A4C8;
+			remoteInfo = FleetGVCU;
+		};
+		BA5EE4202F3F1DB30083A4C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA5EE4002F3F1DB20083A4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA5EE4072F3F1DB20083A4C8;
+			remoteInfo = FleetGVCU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA5EE4082F3F1DB20083A4C8 /* FleetGVCU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FleetGVCU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5EE4152F3F1DB30083A4C8 /* FleetGVCUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleetGVCUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5EE41F2F3F1DB30083A4C8 /* FleetGVCUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleetGVCUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BA5EE40A2F3F1DB20083A4C8 /* FleetGVCU */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FleetGVCU;
+			sourceTree = "<group>";
+		};
+		BA5EE4182F3F1DB30083A4C8 /* FleetGVCUTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FleetGVCUTests;
+			sourceTree = "<group>";
+		};
+		BA5EE4222F3F1DB30083A4C8 /* FleetGVCUUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FleetGVCUUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA5EE4052F3F1DB20083A4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5EE4122F3F1DB30083A4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5EE41C2F3F1DB30083A4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA5EE3FF2F3F1DB20083A4C8 = {
+			isa = PBXGroup;
+			children = (
+				BA5EE40A2F3F1DB20083A4C8 /* FleetGVCU */,
+				BA5EE4182F3F1DB30083A4C8 /* FleetGVCUTests */,
+				BA5EE4222F3F1DB30083A4C8 /* FleetGVCUUITests */,
+				BA5EE4092F3F1DB20083A4C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA5EE4092F3F1DB20083A4C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA5EE4082F3F1DB20083A4C8 /* FleetGVCU.app */,
+				BA5EE4152F3F1DB30083A4C8 /* FleetGVCUTests.xctest */,
+				BA5EE41F2F3F1DB30083A4C8 /* FleetGVCUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA5EE4072F3F1DB20083A4C8 /* FleetGVCU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5EE4292F3F1DB30083A4C8 /* Build configuration list for PBXNativeTarget "FleetGVCU" */;
+			buildPhases = (
+				BA5EE4042F3F1DB20083A4C8 /* Sources */,
+				BA5EE4052F3F1DB20083A4C8 /* Frameworks */,
+				BA5EE4062F3F1DB20083A4C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BA5EE40A2F3F1DB20083A4C8 /* FleetGVCU */,
+			);
+			name = FleetGVCU;
+			packageProductDependencies = (
+			);
+			productName = FleetGVCU;
+			productReference = BA5EE4082F3F1DB20083A4C8 /* FleetGVCU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA5EE4142F3F1DB30083A4C8 /* FleetGVCUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5EE42C2F3F1DB30083A4C8 /* Build configuration list for PBXNativeTarget "FleetGVCUTests" */;
+			buildPhases = (
+				BA5EE4112F3F1DB30083A4C8 /* Sources */,
+				BA5EE4122F3F1DB30083A4C8 /* Frameworks */,
+				BA5EE4132F3F1DB30083A4C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA5EE4172F3F1DB30083A4C8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BA5EE4182F3F1DB30083A4C8 /* FleetGVCUTests */,
+			);
+			name = FleetGVCUTests;
+			packageProductDependencies = (
+			);
+			productName = FleetGVCUTests;
+			productReference = BA5EE4152F3F1DB30083A4C8 /* FleetGVCUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA5EE41E2F3F1DB30083A4C8 /* FleetGVCUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5EE42F2F3F1DB30083A4C8 /* Build configuration list for PBXNativeTarget "FleetGVCUUITests" */;
+			buildPhases = (
+				BA5EE41B2F3F1DB30083A4C8 /* Sources */,
+				BA5EE41C2F3F1DB30083A4C8 /* Frameworks */,
+				BA5EE41D2F3F1DB30083A4C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA5EE4212F3F1DB30083A4C8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BA5EE4222F3F1DB30083A4C8 /* FleetGVCUUITests */,
+			);
+			name = FleetGVCUUITests;
+			packageProductDependencies = (
+			);
+			productName = FleetGVCUUITests;
+			productReference = BA5EE41F2F3F1DB30083A4C8 /* FleetGVCUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA5EE4002F3F1DB20083A4C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					BA5EE4072F3F1DB20083A4C8 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					BA5EE4142F3F1DB30083A4C8 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = BA5EE4072F3F1DB20083A4C8;
+					};
+					BA5EE41E2F3F1DB30083A4C8 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = BA5EE4072F3F1DB20083A4C8;
+					};
+				};
+			};
+			buildConfigurationList = BA5EE4032F3F1DB20083A4C8 /* Build configuration list for PBXProject "FleetGVCU" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA5EE3FF2F3F1DB20083A4C8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BA5EE4092F3F1DB20083A4C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA5EE4072F3F1DB20083A4C8 /* FleetGVCU */,
+				BA5EE4142F3F1DB30083A4C8 /* FleetGVCUTests */,
+				BA5EE41E2F3F1DB30083A4C8 /* FleetGVCUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA5EE4062F3F1DB20083A4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5EE4132F3F1DB30083A4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5EE41D2F3F1DB30083A4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA5EE4042F3F1DB20083A4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5EE4112F3F1DB30083A4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5EE41B2F3F1DB30083A4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA5EE4172F3F1DB30083A4C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA5EE4072F3F1DB20083A4C8 /* FleetGVCU */;
+			targetProxy = BA5EE4162F3F1DB30083A4C8 /* PBXContainerItemProxy */;
+		};
+		BA5EE4212F3F1DB30083A4C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA5EE4072F3F1DB20083A4C8 /* FleetGVCU */;
+			targetProxy = BA5EE4202F3F1DB30083A4C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA5EE4272F3F1DB30083A4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA5EE4282F3F1DB30083A4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA5EE42A2F3F1DB30083A4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Balaji.com.FleetGVCU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA5EE42B2F3F1DB30083A4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Balaji.com.FleetGVCU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA5EE42D2F3F1DB30083A4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Balaji.com.FleetGVCUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FleetGVCU.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FleetGVCU";
+			};
+			name = Debug;
+		};
+		BA5EE42E2F3F1DB30083A4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Balaji.com.FleetGVCUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FleetGVCU.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FleetGVCU";
+			};
+			name = Release;
+		};
+		BA5EE4302F3F1DB30083A4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Balaji.com.FleetGVCUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FleetGVCU;
+			};
+			name = Debug;
+		};
+		BA5EE4312F3F1DB30083A4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Balaji.com.FleetGVCUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FleetGVCU;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA5EE4032F3F1DB20083A4C8 /* Build configuration list for PBXProject "FleetGVCU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5EE4272F3F1DB30083A4C8 /* Debug */,
+				BA5EE4282F3F1DB30083A4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5EE4292F3F1DB30083A4C8 /* Build configuration list for PBXNativeTarget "FleetGVCU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5EE42A2F3F1DB30083A4C8 /* Debug */,
+				BA5EE42B2F3F1DB30083A4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5EE42C2F3F1DB30083A4C8 /* Build configuration list for PBXNativeTarget "FleetGVCUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5EE42D2F3F1DB30083A4C8 /* Debug */,
+				BA5EE42E2F3F1DB30083A4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5EE42F2F3F1DB30083A4C8 /* Build configuration list for PBXNativeTarget "FleetGVCUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5EE4302F3F1DB30083A4C8 /* Debug */,
+				BA5EE4312F3F1DB30083A4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA5EE4002F3F1DB20083A4C8 /* Project object */;
+}
